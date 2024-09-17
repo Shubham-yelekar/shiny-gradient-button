@@ -22,7 +22,7 @@ const ShinyButton = () => {
     }
   }}
   > <motion.span className="text-neutral-100 tracking-wide font-regular text-2xl h-full w-full block relative linear-mask">Start Now</motion.span>
-  <span className='block absolute inset-0 rounded-full  p-px linear-overlay'></span>
+  <span className='block absolute inset-0 rounded-full  p-[2px] linear-overlay'></span>
   </motion.button>;
 };
 
