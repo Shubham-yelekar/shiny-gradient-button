@@ -3,8 +3,8 @@ import {motion} from 'framer-motion';
 
 const ShinyButton = () => {
   return <motion.button className="px-28 py-16 rounded-full relative radial-gradient"
-  initial={{"--x": "100%", scale: 1}}
-  animate={{"--x": "-100%"}}
+  initial={{"--x": "100%", scale: 1} as any}
+  animate={{"--x": "-100%"} as any}
   whileTap={{scale: 0.97}}
   transition={{
     repeat: Infinity,
